@@ -18,6 +18,7 @@ class Box {
 private:
     int height;
     int width;
+    int length;
     int volume;
 
 public:
