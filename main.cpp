@@ -8,7 +8,7 @@
  * assignment guideline.
 **************************************************************/
 
-
+#include <iostream>
 #include "Box.hpp"
 
 int main() {
@@ -22,4 +22,14 @@ int main() {
     double surfaceArea1 = box1.getSurfaceArea();
     double volume2 = box2.getVolume();
     double surfaceArea2 = box2.getSurfaceArea();
+
+    // Added tests for class functions
+    boxTest.setHeight(7.2);
+    boxTest.setWidth(14.5);
+    boxTest.setLength(8.2);
+
+    // Print out to the console these values
+    std::cout << "Box Test:" << std::endl;
+    std::cout << "================" << std::endl;
+    std::cout << "Volume: " << boxTest.getVolume() << std::endl;
 }
