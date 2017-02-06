@@ -30,6 +30,7 @@ int main() {
 
     // Print out to the console these values
     std::cout << "Box Test:" << std::endl;
-    std::cout << "================" << std::endl;
+    std::cout << "======================" << std::endl;
     std::cout << "Volume: " << boxTest.getVolume() << std::endl;
+    std::cout << "Surface Area: " << boxTest.getSurfaceArea() << std::endl;
 }
