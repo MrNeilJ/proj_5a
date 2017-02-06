@@ -55,7 +55,7 @@ bool Box::setLength(double l) {
  * Description: Returns the value of the height, width, and
  * volume multiplied together.
 **************************************************************/
-// double Box::getVolume() {
+double Box::getVolume() {
     return height * width * length;
 
 }
