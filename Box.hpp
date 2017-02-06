@@ -31,15 +31,19 @@ public:
 
     Box(double w, double h , double l);
 
-
+    // Sets the private value Height
     bool setHeight(double h);
 
+    // Sets the private value width
     bool setWidth(double w);
 
+    // Sets the private value length
     bool setLength(double l);
 
+    // Returns the volume of object l * h * w
     double getVolume();
 
+    // Returns the surface area (w * h) * 6
     double getSurfaceArea();
 
 };
