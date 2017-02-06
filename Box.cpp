@@ -4,6 +4,14 @@
 
 #include "Box.hpp"
 
+// Sets object information if the user adds in values when
+// creating the object
+Box::Box(double w, double h, double l)
+{
+    width = w;
+    height = h;
+    length = l;
+}
 
 // Sets the private value "Height" in the Box class
 bool Box::setHeight(double h) {

@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Box.hpp"
 
 int main() {

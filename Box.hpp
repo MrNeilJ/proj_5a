@@ -16,9 +16,9 @@
 class Box {
 
 private:
-    int height;
-    int width;
-    int length;
+    double height;
+    double width;
+    double length;
 
 public:
     // Constructor in case the user doesn't put anything in.
