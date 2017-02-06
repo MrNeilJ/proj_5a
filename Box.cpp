@@ -22,33 +22,28 @@ Box::Box(double w, double h, double l)
     length = l;
 }
 
-
 /**************************************************************
  * Description: Sets the private value "Height" in the Box
  * class
 **************************************************************/
-bool Box::setHeight(double h) {
+void Box::setHeight(double h) {
     height = h;
-    return true;
 }
-
 
 /**************************************************************
  * Description: Sets the private value "Width" in the Box
  * class.
 **************************************************************/
-bool Box::setWidth(double w) {
+void Box::setWidth(double w) {
     width = w;
-    return true;
 }
 
 /**************************************************************
  * Description: Sets the private value "Length" in the Box
  * class.
 **************************************************************/
-bool Box::setLength(double l) {
+void Box::setLength(double l) {
     length = l;
-    return true;
 }
 
 /**************************************************************
@@ -57,7 +52,6 @@ bool Box::setLength(double l) {
 **************************************************************/
 double Box::getVolume() {
     return height * width * length;
-
 }
 
 /**************************************************************
