@@ -27,15 +27,15 @@ public:
         width = 1;
         volume = 1;
     }
-    setHeight(int);
+    bool setHeight(double);
 
-    setWidth(int);
+    bool setWidth(double);
 
-    setLength(int);
+    bool setLength(double);
 
-    getVolume(int);
+    double getVolume();
 
-    getSurfaceArea(int);
+    double getSurfaceArea();
 
 };
 

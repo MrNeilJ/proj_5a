@@ -3,3 +3,16 @@
 //
 
 #include "Box.hpp"
+
+bool Box::setHeight(double input) {
+    height = input;
+}
+
+bool Box::setWidth(double input) {
+    width = input;
+}
+
+double Box::getVolume() {
+
+}
+
