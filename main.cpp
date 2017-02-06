@@ -4,7 +4,7 @@
  * Date: 2.5.2017
  *
  * Description: This is the main function to test the the
- * created object class Box.  The included tests are from the
+ * created object class Box. The included tests are from the
  * assignment guideline.
 **************************************************************/
 
