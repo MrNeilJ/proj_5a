@@ -19,20 +19,24 @@ private:
     int height;
     int width;
     int length;
-    int volume;
 
 public:
+    // Constructor in case the user doesn't put anything in.
     Box()
     {
         height = 1;
         width = 1;
-        volume = 1;
+        length = 1;
     }
-    bool setHeight(double);
 
-    bool setWidth(double);
+    Box(double w, double h , double l);
 
-    bool setLength(double);
+
+    bool setHeight(double h);
+
+    bool setWidth(double w);
+
+    bool setLength(double l);
 
     double getVolume();
 

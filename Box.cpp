@@ -6,19 +6,22 @@
 
 
 // Sets the private value "Height" in the Box class
-bool Box::setHeight(double input) {
-    height = input;
+bool Box::setHeight(double h) {
+    height = h;
+    return true;
 }
 
 // Sets the private value "Width" in the Box class
 
-bool Box::setWidth(double input) {
-    width = input;
+bool Box::setWidth(double w) {
+    width = w;
+    return true;
 }
 
 // Sets the private value "Length" in the Box class
-bool Box::setLength(double input) {
-    length = input;
+bool Box::setLength(double l) {
+    length = l;
+    return true;
 }
 
 // Returns the value of the height, width, and volume multiplied together
