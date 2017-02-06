@@ -1,6 +1,14 @@
-//
-// Created by Neil Johnson on 2/5/17.
-//
+/**************************************************************
+** Author: Neil Johnson
+**
+** Date: 2.5.2017
+**
+** Description: This program will ask the user for an amount
+** of integers they would like to enter.  The application then
+** will allow the user to enter that many numbers.  Once
+** completed it will display the largest and smallest numbers
+** that the user typed in.
+**************************************************************/
 
 #ifndef PROJ_5A_BOX_HPP
 #define PROJ_5A_BOX_HPP
