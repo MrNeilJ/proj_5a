@@ -12,6 +12,7 @@
 
 
 /**************************************************************
+ *                  Box::Box
  * Description: Constructor in case the user doesn't put
  * anything in.
 **************************************************************/
@@ -23,6 +24,7 @@ Box::Box()
 }
 
 /**************************************************************
+ *                   Box::Box
  * Description: Sets object information if the user adds in
  * values when creating the object
 **************************************************************/
@@ -34,6 +36,7 @@ Box::Box(double w, double h, double l)
 }
 
 /**************************************************************
+ *                   Box::setHeight
  * Description: Sets the private value "Height" in the Box
  * class
 **************************************************************/
@@ -42,6 +45,7 @@ void Box::setHeight(double h) {
 }
 
 /**************************************************************
+ *                   Box::setWidth
  * Description: Sets the private value "Width" in the Box
  * class.
 **************************************************************/
@@ -50,6 +54,7 @@ void Box::setWidth(double w) {
 }
 
 /**************************************************************
+ *                   Box::setLength
  * Description: Sets the private value "Length" in the Box
  * class.
 **************************************************************/
@@ -58,6 +63,7 @@ void Box::setLength(double l) {
 }
 
 /**************************************************************
+ *                   Box::getVolume
  * Description: Returns the value of the height, width, and
  * volume multiplied together.
 **************************************************************/
@@ -66,6 +72,7 @@ double Box::getVolume() {
 }
 
 /**************************************************************
+ *                   Box::getSurfaceArea
  * Description: Returns the surface area of the cube, which is
  * the height * width multiplied by number of sides (6)
 **************************************************************/
