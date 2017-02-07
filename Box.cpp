@@ -5,11 +5,11 @@
  *
  * Description: This file contains all the functions for the
  * Box Class.  In here we can set the values of the height
- * width and lenth and of the object.  In addition the object
+ * width and length and of the object.  In addition the object
  * can return the volume and surface area of the "Box" object
 **************************************************************/
-
 #include "Box.hpp"
+
 
 /**************************************************************
  * Description: Constructor in case the user doesn't put
