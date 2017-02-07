@@ -20,13 +20,9 @@ private:
 
 public:
     // Constructor in case the user doesn't put anything in.
-    Box()
-    {
-        height = 1;
-        width = 1;
-        length = 1;
-    }
+    Box();
 
+    // Constructor for when the user does add in information
     Box(double w, double h , double l);
 
     // Sets the private value Height

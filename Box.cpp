@@ -12,6 +12,17 @@
 #include "Box.hpp"
 
 /**************************************************************
+ * Description: Constructor in case the user doesn't put
+ * anything in.
+**************************************************************/
+Box::Box()
+{
+    height = 1;
+    width = 1;
+    length = 1;
+}
+
+/**************************************************************
  * Description: Sets object information if the user adds in
  * values when creating the object
 **************************************************************/
